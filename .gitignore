@@ -1,0 +1,21 @@
+# Derleme çıktıları
+build/
+dist/
+*.spec.bak
+
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+
+# İmza ve sertifika dosyaları (asla depoya eklenmemeli)
+*.p12
+*.pfx
+*.pem
+*.key
+
+# Çıktı ve geçici dosyalar
+çıktı belgeleri/
+*.pdf
+.claude/
